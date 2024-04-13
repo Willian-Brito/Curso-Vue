@@ -12,7 +12,10 @@ Tudo que estiver dentro de data ou methods, vc tem aceso direto pelo HTML.
  * v-on: serve para escutar eventos dos elementos Ex: <button v-on:click="somar">Somar 1</button>
  * v-html: serve para introduzir um trecho de HTML em um elemento. Ex: <p v-html="linkHTML"></p>
  * v-model: utiliza o conceito de Two Way Data Bind.
- 
+ * v-if, v-if-else, v-else: Adiciona e remove os elementos da pagina.
+ * v-show: Adiciona e oculta os elementos, sem remover os elementos da pagina.
+ * v-for: Executa loopings. Ex: <li v-for="cor in cores">{{ cor }}</li>
+
 # Propriedades
 - Computed: Os dados computados em Vue é uma maneira de acessar dados complexos de uma forma mais simples, é bastante usado quando vc tem um calculo que depende de outras variaveis associado a essa propriedade.
 - Watch: A propriedade Watch é útil para quando você monitorar uma propriedade alterada, tendo acesso ao valor novo e antigo.
