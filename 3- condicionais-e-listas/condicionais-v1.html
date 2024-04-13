@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<div id="app">
+    <p>Usuário Logado: {{ nome }}</p>
+    <p>Nenhum usuário logado</p>
+    <button @click="logado = !logado"> {{ logado ? 'Sair' : 'Entrar' }} </button>
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            nome: 'Maria',
+            logado: false
+        }
+    })
+</script>
