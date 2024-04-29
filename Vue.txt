@@ -19,3 +19,6 @@ Tudo que estiver dentro de data ou methods, vc tem aceso direto pelo HTML.
 # Propriedades
 - Computed: Os dados computados em Vue é uma maneira de acessar dados complexos de uma forma mais simples, é bastante usado quando vc tem um calculo que depende de outras variaveis associado a essa propriedade.
 - Watch: A propriedade Watch é útil para quando você monitorar uma propriedade alterada, tendo acesso ao valor novo e antigo.
+
+# Ciclo de Vida
+https://www.alura.com.br/artigos/vuejs-ciclo-vida-componentes
