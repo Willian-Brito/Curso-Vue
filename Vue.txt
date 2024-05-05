@@ -30,3 +30,17 @@ Tudo que estiver dentro de data ou methods, vc tem aceso direto pelo HTML.
 3- Rodar: npm run serve
 4- Build: npm run build
 5- Add Plugins: vue add nome-plugin
+
+# Comunicação entre componentes
+1- Direta (Pai -> Filho): props
+2- Indireta (Filho -> Pai): Eventos Personalizados, Callbacks
+3- Indireta (Irmãos [Filho -> Pai -> Filho] ): Eventos Personalizados
+4- Indireta (Irmãos: Filho -> Filho): Eventos Personalizados com barramento de eventos
+
+# NVM - Node Version Manager (Manjaro)
+Instalar: sudo pacman -S nvm
+Fazer funcionar: echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.zshrc
+Reiniciar Bash: source ~/.zshrc
+Listar versões: nvm list 
+Instalar versão do node 12: nvm install 12
+Usando versão 12: nvm use 12
