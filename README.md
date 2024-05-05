@@ -2,5 +2,5 @@
 Este repositório foi criado para armazenar os códigos do curso de vue da cod3r. 
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/Curso-Vue/blob/main/0-%20prints/vue.jpg" alt="Logo do Vue" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/Curso-Vue/main/0-%20prints/vue.jpg" alt="Logo do Vue" />
 </div>
