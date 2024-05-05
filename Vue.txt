@@ -3,8 +3,6 @@
 Tudo que estiver dentro de data ou methods, vc tem aceso direto pelo HTML.
 
 
-
-
 # Diretiva: As diretivas são atributos especiais do Vue com o prefixo v-.
 
  * v-bind: serve para fazer o link (interpolação) entre um atributo do vue para o atributo do HTML Ex: v-bind:href="link"
@@ -21,4 +19,14 @@ Tudo que estiver dentro de data ou methods, vc tem aceso direto pelo HTML.
 - Watch: A propriedade Watch é útil para quando você monitorar uma propriedade alterada, tendo acesso ao valor novo e antigo.
 
 # Ciclo de Vida
-https://www.alura.com.br/artigos/vuejs-ciclo-vida-componentes
+- https://www.alura.com.br/artigos/vuejs-ciclo-vida-componentes
+
+# Back-end (C#) + Front-end (Vue)
+- https://www.freecodecamp.org/portuguese/news/como-criar-uma-spa-com-vue-js-e-c-sharp-usando-net-core/
+
+# VUE-CLI
+1- Instalar: npm i -g @vue/cli
+2- Criar Projeto: vue create nome-projeto
+3- Rodar: npm run serve
+4- Build: npm run build
+5- Add Plugins: vue add nome-plugin
