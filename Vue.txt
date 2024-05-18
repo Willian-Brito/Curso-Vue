@@ -36,6 +36,7 @@ Tudo que estiver dentro de data ou methods, vc tem aceso direto pelo HTML.
 2- Indireta (Filho -> Pai): Eventos Personalizados, Callbacks
 3- Indireta (Irmãos [Filho -> Pai -> Filho] ): Eventos Personalizados
 4- Indireta (Irmãos: Filho -> Filho): Eventos Personalizados com barramento de eventos
+5- Direta (Pai -> Filho): Tag <slot>
 
 # NVM - Node Version Manager (Manjaro)
 Instalar: sudo pacman -S nvm
