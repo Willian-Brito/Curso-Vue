@@ -45,3 +45,11 @@ Reiniciar Bash: source ~/.zshrc
 Listar versões: nvm list 
 Instalar versão do node 12: nvm install 12
 Usando versão 12: nvm use 12
+
+# HOOKS - Métodos do ciclo de vida de uma diretiva
+
+* bind(el, binding, vnode) -> Quando a diretiva é interligada com elemento
+* inserted(el, binding, vnode) -> Elemento inserido no nó
+* update(el, binding, vnode, oldVNode) -> Quando o componente é atualizado (antes filhos)
+* componentUpdated(el, binding, vnode, oldVNode) -> Quando o componente é atualizado (depois filhos)
+* unbind(el, binding, vnode) -> Quando a diretiva é desvinculada do elemento
