@@ -14,15 +14,23 @@ Tudo que estiver dentro de data ou methods, vc tem aceso direto pelo HTML.
  * v-show: Adiciona e oculta os elementos, sem remover os elementos da pagina.
  * v-for: Executa loopings. Ex: <li v-for="cor in cores">{{ cor }}</li>
 
+-----------------------
+
 # Propriedades
 - Computed: Os dados computados em Vue é uma maneira de acessar dados complexos de uma forma mais simples, é bastante usado quando vc tem um calculo que depende de outras variaveis associado a essa propriedade.
 - Watch: A propriedade Watch é útil para quando você monitorar uma propriedade alterada, tendo acesso ao valor novo e antigo.
 
+-----------------------
+
 # Ciclo de Vida
 - https://www.alura.com.br/artigos/vuejs-ciclo-vida-componentes
 
+-----------------------
+
 # Back-end (C#) + Front-end (Vue)
 - https://www.freecodecamp.org/portuguese/news/como-criar-uma-spa-com-vue-js-e-c-sharp-usando-net-core/
+
+-----------------------
 
 # VUE-CLI
 1- Instalar: npm i -g @vue/cli
@@ -31,12 +39,16 @@ Tudo que estiver dentro de data ou methods, vc tem aceso direto pelo HTML.
 4- Build: npm run build
 5- Add Plugins: vue add nome-plugin
 
+-----------------------
+
 # Comunicação entre componentes
 1- Direta (Pai -> Filho): props
 2- Indireta (Filho -> Pai): Eventos Personalizados, Callbacks
 3- Indireta (Irmãos [Filho -> Pai -> Filho] ): Eventos Personalizados
 4- Indireta (Irmãos: Filho -> Filho): Eventos Personalizados com barramento de eventos
 5- Direta (Pai -> Filho): Tag <slot>
+
+-----------------------
 
 # NVM - Node Version Manager (Manjaro)
 Instalar: sudo pacman -S nvm
@@ -46,6 +58,8 @@ Listar versões: nvm list
 Instalar versão do node 12: nvm install 12
 Usando versão 12: nvm use 12
 
+-----------------------
+
 # HOOKS - Métodos do ciclo de vida de uma diretiva
 
 * bind(el, binding, vnode) -> Quando a diretiva é interligada com elemento
@@ -53,3 +67,14 @@ Usando versão 12: nvm use 12
 * update(el, binding, vnode, oldVNode) -> Quando o componente é atualizado (antes filhos)
 * componentUpdated(el, binding, vnode, oldVNode) -> Quando o componente é atualizado (depois filhos)
 * unbind(el, binding, vnode) -> Quando a diretiva é desvinculada do elemento
+
+-----------------------
+
+# VUEX - Gerenciamento de Estados
+
+* State: atributos globais.
+* Getters: leitura de uma função com calculo dos atributos globais.
+
+* Diferença entre Mutations e Actions: 
+    - Mutations (commmit): Alterar o estado dos atributos globais (sincrono).
+    - Actions (dispatch): Regras compartilhadas no momento de alterar os estado dos atributos globais (assincrono).
